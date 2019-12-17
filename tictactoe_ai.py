@@ -412,6 +412,15 @@ def cpuMove():
         btn6["text"] = "O"
         return
     #cpu start bottom right cases
+    if btn1["text"] == " " and btn2["text"] == " " and btn3["text"] == " " and btn4["text"]== " " and btn5["text"]== " " and btn6["text"] == " " and btn7["text"] == "X" and btn8["text"] == " " and btn9["text"] == "O":
+        
+        btn3["text"]= "O"
+        return
+    if btn1["text"] == " " and btn2["text"] == " " and btn3["text"] == "O" and btn4["text"]== " " and btn5["text"]== " " and btn6["text"] == "X" and btn7["text"] == "X" and btn8["text"] == " " and btn9["text"] == "O":
+        
+        btn1["text"]= "O"
+        return
+    
     
     if btn1["text"] == " " and btn2["text"] == " " and btn3["text"] == " " and btn4["text"]== " " and btn5["text"]== " " and btn6["text"] == "X" and btn7["text"] == " " and btn8["text"] == " " and btn9["text"] == "O":
         
